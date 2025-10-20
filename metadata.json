@@ -1,0 +1,5 @@
+{
+  "name": "FinQuest AI",
+  "description": "A gamified AI financial app to track daily expenditures, calculate earnings, monitor habits, and generate reports. It uses AI to provide financial insights and makes managing finances engaging and fun.",
+  "requestFramePermissions": []
+}
