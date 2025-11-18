@@ -2,8 +2,8 @@ import { createClient } from '@supabase/supabase-js';
 
 // --- Environment Variables ---
 // These are automatically injected by the environment.
-const supabaseUrl = process.env.SUPABASE_URL || "https://nkfkiummlqfudbhsjlni.supabase.co";
-const supabaseAnonKey = process.env.SUPABASE_ANON_KEY || "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5rZmtpdW1tbHFmdWRiaHNqbG5pIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjMwMzE1MzYsImV4cCI6MjA3ODYwNzUzNn0.CNGqrxfi31SiNnyZa4BMpFuv9Eqdwt0-kuG_wDH48zA";
+const supabaseUrl = process.env.SUPABASE_URL;
+const supabaseAnonKey = process.env.SUPABASE_ANON_KEY;
 
 console.log("url: ", supabaseUrl, "Anon: ", supabaseAnonKey)
 
