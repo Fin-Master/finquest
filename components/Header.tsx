@@ -40,7 +40,7 @@ const Header: React.FC<HeaderProps> = ({ user, onLogout, level, xp, onProfileCli
                   <p className="text-xs text-gray-400">{user.email}</p>
                 </div>
               </button>
-              <button onClick={onLogout} className="p-2 rounded-full hover:bg-gray-700 transition">
+              <button onClick={onLogout} className="p-2 rounded-full hover:bg-gray-700 transition" aria-label="Logout">
                 <LogOut className="text-gray-400" />
               </button>
             </div>

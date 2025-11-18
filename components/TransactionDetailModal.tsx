@@ -20,7 +20,7 @@ const TransactionDetailModal: React.FC<TransactionDetailModalProps> = ({ transac
       <div className="bg-gray-800 p-6 rounded-2xl shadow-2xl w-full max-w-lg border border-gray-700 m-4" onClick={e => e.stopPropagation()}>
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-2xl font-bold text-white">Transaction Details</h2>
-          <button onClick={onClose} className="p-2 rounded-full hover:bg-gray-700 transition">
+          <button onClick={onClose} className="p-2 rounded-full hover:bg-gray-700 transition" aria-label="Close modal">
             <X className="text-gray-400" />
           </button>
         </div>

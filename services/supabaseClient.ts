@@ -2,10 +2,8 @@ import { createClient } from '@supabase/supabase-js';
 
 // --- Environment Variables ---
 // These are automatically injected by the environment.
-const supabaseUrl = process.env.SUPABASE_URL;
-const supabaseAnonKey = process.env.SUPABASE_ANON_KEY;
-
-console.log("url: ", supabaseUrl, "Anon: ", supabaseAnonKey)
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
 if (!supabaseUrl || !supabaseAnonKey) {
   throw new Error("Supabase URL and Anon Key must be provided in environment variables.");

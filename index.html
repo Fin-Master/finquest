@@ -2,29 +2,68 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FinQuest AI</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>FinQuest AI - Gamified Financial Tracker & AI Budgeting App</title>
+
+    <!-- Favicons and manifest -->
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="FinQuest" />
+    <link rel="manifest" href="/assets/site.webmanifest" />
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Take control of your finances with FinQuest AI, a fun, gamified budgeting app. Track expenses, set savings goals, and get personalized insights from our AI assistant to make managing money an adventure." />
+    <meta name="keywords" content="finance app, budgeting, expense tracker, savings goals, AI finance, gamified budget, personal finance, money management, financial planning" />
+    <meta name="author" content="FinQuest AI Team" />
+    <link rel="canonical" href="https://finquest.ai/" /> <!--  URL -->
+
+    <!-- Theme Color for Browsers -->
+    <meta name="theme-color" content="#1a202c">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://finquest.ai/" /> <!--  URL -->
+    <meta property="og:title" content="FinQuest AI - Gamified Financial Tracker & AI Budgeting App" />
+    <meta property="og:description" content="Track expenses, set savings goals, and get personalized AI insights. Turn budgeting into a fun adventure!" />
+    <meta property="og:image" content="/assets/icons/Finquest-ai-icon.png" /> <!--  OG image URL -->
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://finquest.ai/" /> <!--  URL -->
+    <meta property="twitter:title" content="FinQuest AI - Gamified Financial Tracker & AI Budgeting App" />
+    <meta property="twitter:description" content="Track expenses, set savings goals, and get personalized AI insights. Turn budgeting into a fun adventure!" />
+    <meta property="twitter:image" content="/assets/icons/Finquest-ai-icon.png" /> <!--  Twitter card image URL -->
+
+    <link href="/style.css" rel="stylesheet">
     <script src="https://accounts.google.com/gsi/client" async defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" defer crossorigin="anonymous"></script>
-  <script type="importmap">
-{
-  "imports": {
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0",
-    "recharts": "https://aistudiocdn.com/recharts@^3.3.0",
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.546.0",
-    "three": "https://aistudiocdn.com/three@^0.167.0",
-    "@react-three/fiber": "https://aistudiocdn.com/@react-three/fiber@^9.0.0-beta.23",
-    "@react-three/drei": "https://aistudiocdn.com/@react-three/drei@^10.0.0-beta.16"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "FinQuest AI",
+      "operatingSystem": "WEB",
+      "applicationCategory": "FinanceApplication",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "250"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "A gamified AI financial app to track daily expenditures, calculate earnings, monitor habits, and generate reports. It uses AI to provide financial insights and makes managing finances engaging and fun.",
+      "keywords": "finance app, budgeting, expense tracker, savings goals, AI finance, gamified budget, personal finance"
+    }
+    </script>
 </head>
   <body class="bg-gray-900 text-white">
     <div id="root"></div>

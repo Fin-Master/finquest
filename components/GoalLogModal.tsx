@@ -24,7 +24,7 @@ const GoalLogModal: React.FC<GoalLogModalProps> = ({ goal, transactions, onClose
             <span className="text-3xl mr-3">{goal.emoji}</span>
             Log for "{goal.name}"
           </h2>
-          <button onClick={onClose} className="p-2 rounded-full hover:bg-gray-700 transition">
+          <button onClick={onClose} className="p-2 rounded-full hover:bg-gray-700 transition" aria-label="Close modal">
             <X className="text-gray-400" />
           </button>
         </div>

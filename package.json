@@ -13,10 +13,12 @@
     "@react-three/drei": "^10.0.0-beta.16",
     "@react-three/fiber": "^9.0.0-beta.23",
     "@supabase/supabase-js": "^2.81.1",
+    "@tailwindcss/vite": "^4.1.17",
     "lucide-react": "^0.546.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "recharts": "^3.3.0",
+    "tailwindcss": "^4.1.17",
     "three": "^0.167.0"
   },
   "devDependencies": {

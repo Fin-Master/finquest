@@ -848,7 +848,7 @@ const Dashboard: React.FC<DashboardProps> = ({
                 </div>
             )}
 
-            <button id="tour-step-7" onClick={() => { setEditingTransaction(null); setTransactionModalOpen(true);}} className="fixed bottom-6 right-6 bg-indigo-600 hover:bg-indigo-700 text-white p-4 rounded-full shadow-lg transition-transform hover:scale-110">
+            <button id="tour-step-7" onClick={() => { setEditingTransaction(null); setTransactionModalOpen(true);}} className="fixed bottom-6 right-6 bg-indigo-600 hover:bg-indigo-700 text-white p-4 rounded-full shadow-lg transition-transform hover:scale-110" aria-label="Add new transaction">
               <PlusCircle size={28} />
             </button>
           </>

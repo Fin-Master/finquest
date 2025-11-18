@@ -40,7 +40,7 @@ const LoginScreen: React.FC<LoginScreenProps> = ({ onNavigateToTerms, onNavigate
         
         <div className="mb-8">
           <div className="w-24 h-24 bg-gradient-to-r from-green-400 to-blue-500 rounded-full mx-auto flex items-center justify-center animate-pulse">
-             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+             <img src='/assets/icons/Finquest-ai-icon.png'></img>
           </div>
         </div>
         
